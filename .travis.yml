@@ -11,3 +11,4 @@ deploy:
   app: lpa2sgadot
   on:
     repo: LPA2-Automne2016/projet-back-P2019
+  run: "rails db:migrate"
